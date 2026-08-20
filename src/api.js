@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api"
+  baseURL: "https://github.com/dagemawi12234-pixel/client.git"
 });
 
 api.interceptors.request.use((config) => {
